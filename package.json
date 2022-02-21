@@ -1,0 +1,40 @@
+{
+  "name": "@ivorgri/sveltekit-pluggable-static-adapter-external-image-plugin",
+  "version": "1.0.0",
+  "description": "Plugin which replaces the URL's in build files from Sveltekit, by a local variant. To be used with @ivorgri/sveltekit-pluggable-static-adapter",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "build": "npm run lint && npm run format && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivorgri/sveltekit-pluggable-static-adapter-external-image-plugin.git"
+  },
+  "keywords": [
+    "sveltekit",
+    "static adapter",
+    "external image"
+  ],
+  "author": "Ivor Grisel (@ivorgri)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivorgri/sveltekit-pluggable-static-adapter-external-image-plugin/issues"
+  },
+  "homepage": "https://github.com/ivorgri/sveltekit-pluggable-static-adapter-external-image-plugin#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.19",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "prettier": "^2.5.1",
+    "tiny-glob": "^0.2.9",
+    "typescript": "^4.5.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
