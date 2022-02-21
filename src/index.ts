@@ -14,7 +14,7 @@ async function replaceExternalImages(
   originUrls: string | string[],
   builder: any,
   pagesDirectory: string,
-  assetsDirectory: string  
+  assetsDirectory: string
 ) {
   builder.log("Starting replacement of images from external sources");
   if (typeof originUrls === "string") {
