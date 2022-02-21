@@ -1,3 +1,6 @@
+# Package specific
+/lib
+
 # Logs
 logs
 *.log
