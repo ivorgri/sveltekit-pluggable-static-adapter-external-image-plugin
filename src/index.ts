@@ -11,10 +11,10 @@ import * as https from "https";
  * @param {string[]} originUrls
  */
 async function replaceExternalImages(
+  originUrls: string | string[],
   builder: any,
   pagesDirectory: string,
-  assetsDirectory: string,
-  originUrls: string | string[]
+  assetsDirectory: string  
 ) {
   builder.log("Starting replacement of images from external sources");
   if (typeof originUrls === "string") {
